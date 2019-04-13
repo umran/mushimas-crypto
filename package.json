@@ -1,0 +1,35 @@
+{
+  "name": "mushimas-crypto",
+  "version": "0.0.1",
+  "description": "cryptographic methods for mushimas",
+  "main": "lib.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "cover": "istanbul cover _mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umran/mushimas-crypto.git"
+  },
+  "keywords": [
+    "mushimas"
+  ],
+  "author": "Ahmed Umran Hussain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umran/mushimas-crypto/issues"
+  },
+  "homepage": "https://github.com/umran/mushimas-crypto#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-match": "^1.1.1",
+    "coveralls": "^3.0.2",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0"
+  }
+}

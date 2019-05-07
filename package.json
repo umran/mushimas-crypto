@@ -1,6 +1,6 @@
 {
   "name": "mushimas-crypto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cryptographic methods for mushimas",
   "main": "lib.js",
   "directories": {
